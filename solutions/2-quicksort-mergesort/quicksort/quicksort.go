@@ -42,7 +42,7 @@ func main() {
 	scanner.Buffer(buf, maxCapacity)
 
 	scanner.Scan()
-	n, _ := strconv.Atoi(strings.Fields(scanner.Text())[0])
+	n, _ := strconv.Atoi(scanner.Text())
 	
 	scanner.Scan()
 	arrStr := strings.Fields(scanner.Text())
